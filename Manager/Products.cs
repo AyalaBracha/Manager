@@ -48,6 +48,7 @@ namespace Manager
                 {
                     InsertProduct(connectionString);
                 }
+                Console.WriteLine(rowAffected);
                 return rowAffected;  
                
             }
